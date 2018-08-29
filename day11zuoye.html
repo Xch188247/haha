@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{width: 422px;height: 422px;margin:100px auto;position: relative;}
+        #b{position: absolute;top:100px;left: 146px;}
+        #a{transition: all 5.5s}
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/index.png" alt="" id="a">
+        <img src="img/point.png" alt="" id="b">
+    </div>
+    <script>
+        var oa=document.getElementById("a");
+        var ob=document.getElementById("b");
+        var arr=["30元免费流量包","100元免费流量包","2猫币","一等奖","10猫币","谢谢参与","5猫币",
+        "10源免费流量包","20源免费流量包","20猫币"]
+        var s=0;
+        var i=0;
+        ob.onclick=function(){
+            i=Math.floor(Math.random()*10);
+            s=i*36+720;
+            oa.style.transform="rotate(-"+s+"deg)";
+            setTimeout(show,5500);
+            function show(){
+                alert("恭喜您获得："+arr[i]);
+                location.reload();
+            }
+        }
+        
+    </script>
+</body>
+</html>

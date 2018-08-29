@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul,body,li{margin: 0;padding: 0;}
+        ul{width: 500px;height: 50px;margin: 100px auto;}
+        li{width: 100px;height: 50px;line-height: 50px;text-align: center;list-style: none;
+        float: left;font-size: 16px;}
+    </style>
+</head>
+<body>
+    <ul id="ul">
+        <li>帽子</li>
+        <li>裙子</li>
+        <li>鞋子</li>
+        <li>袜子</li>
+        <li>裤子</li>
+    </ul>
+
+    <script>
+        var oul=document.getElementById("ul");
+        var oli=document.getElementsByTagName("li");
+        for(var i=0;i<oli.length;i++){
+            (function(index){
+                oli[index].onmouseover=function(){
+                oli[index].style.borderBottom="4px solid blue";
+            }
+                oli[index].onmouseout=function(){
+                oli[index].style.borderBottom="none";
+            } 
+             })(i);
+        }
+    </script>
+</body>
+</html>
+

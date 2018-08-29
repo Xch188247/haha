@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{width: 500px;height: 240px;margin: 100px auto;}
+        /* #box img{width: 500px;height: 240px;} */
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="img/a (1).jpg" alt="" id="pic">
+    </div>
+    <script>
+        var pic=['a (1).jpg','a (2).jpg','a (3).jpg','a (4).jpg','a (5).jpg','a (6).jpg','a (7).jpg']
+        var opic=document.getElementById('pic');
+        var i=0;
+        function disp(){//显示更换后的图片
+            opic.src="img/"+pic[i];
+            i++;
+            if(i==pic.length){i=0;}
+         }
+        setInterval(disp,1200);
+
+    </script>
+</body>
+</html>
