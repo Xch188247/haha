@@ -1,0 +1,245 @@
+{
+  "control": {
+    "expires": 1800
+  },
+  "status": 0,
+  "data": {
+    "hasNext": false,
+    "two":[{
+        "img":"//photocdn.tv.sohu.com/img/20180313/vrsa_ver_1520913632054_9454146_9q67y_pic26.jpg",
+        "nm":"绿箭侠第5季",
+        "cnm":"32.1万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20171026/vrsa_ver9411658_05M98_pic26.jpg",
+        "nm":"老妈第4季",
+        "cnm":"2.1万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20171010/vrsa_ver9402448_G8lPd_pic26.jpg",
+        "nm":"明日传奇第2季",
+        "cnm":"36.8万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20170418/vrsa_ver9340511_4nRD9_pic26.jpg",
+        "nm":"老妈第3季",
+        "cnm":"36.8万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20180731/vrsa_ver_1533031265913_6570813_yEw1r_pic26.jpg",
+        "nm":"妻子的秘密",
+        "cnm":"63.1万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20170310/vrsa_ver9313048_cx3r6_pic26.jpg",
+        "nm":"昭雪第4季",
+        "cnm":"66.1万"
+    }],
+    "two2":[{
+        "img":"//photocdn.tv.sohu.com/img/tvmobile/20150728/141029/album_9029818_240_330.jpg",
+        "nm":"生活大爆炸",
+        "cnm":"3亿"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/tvmobile/20140121/2217/13887368351261400.jpg",
+        "nm":"屌丝男士",
+        "cnm":"33.3万"
+    },{
+        "img":"//photocdn.tv.sohu.com/img/20160707/vrsa_ver9147818_1C4a0_pic26.jpg",
+        "nm":"若是如此",
+        "cnm":"33.6万"
+        },{
+        "img":"//photocdn.tv.sohu.com/img/20140212/vrsa_ver6494271_nK51U_pic26.jpg",
+        "nm":"屌丝男士第3季",
+        "cnm":"66.3万"
+        },{
+        "img":"//photocdn.tv.sohu.com/img/20170811/vrsa_ver_1502443705074_9379760_7j9N9_pic26.jpg",
+        "nm":"人间至味是清欢",
+        "cnm":"36.3万"
+        },{
+        "img":"//photocdn.tv.sohu.com/img/20161104/vrsa_ver3351_4dKi6_pic26.jpg",
+        "nm":"老大的幸福",
+        "cnm":"36.8万"
+        }],
+
+    "juchang":[{
+        
+        "img":"//photovms.tv.sohu.com/20181119/-118425656154258600291518057.jpg",
+        "nm":"我在大理寺当宠物",
+        "cnm":"萌猫你别跑少卿哥哥抱抱"
+        },{
+        "img":"//photovms.tv.sohu.com/20181120/-118425656154267144887696152.jpg",
+        "nm":"降龙之白露为霜",
+        "cnm":"相爱相杀才能见真兄弟"
+        },{
+        "img":"//photovms.tv.sohu.com/20181119/-118425656154258718053738716.jpg",
+        "nm":"我的美女老师",
+        "cnm":"荷尔蒙炸裂，不服正面刚"
+
+        },{
+        "img":"//photovms.tv.sohu.com/20181119/-118425656154258686836292857.jpg",
+        "nm":"发酵吧，创业菌",
+        "cnm":"我们无年少，宁可不热血" 
+        },{
+        "img":"//photovms.tv.sohu.com/20181119/-118425656154258828365394178.jpg",
+        "nm":"黄土高原",
+        "cnm":"再见父辈青春芳华岁月" 
+            },
+        {
+            "img":"//photovms.tv.sohu.com/20181120/-118425656154267546101298251.jpg",
+            "nm":"惊蛰",
+            "cnm":"英汉当道，小鲜肉靠边站"     
+        }],
+    "movies": [{
+      "showInfo": "今天47家影院放映596场",
+      "cnms": 0,
+      "late": false,
+      "sn": 0,
+      "src": "",
+      "nm": "我们的四十年",
+      "scm": "女儿实报母亲出轨",
+      "showDate": "",
+      "dur": 107,
+      "img": "http://photovms.tv.sohu.com/20181120/-118425656154267312736063662_hor_small.jpg",
+      "sc": 7.5,
+      "ver": "2D",
+      "rt": "本周五上映",
+      "preSale": 0,
+      "vd": "",
+      "dir": "吴宇森",
+      "star": "张涵予,福山雅治,戚薇",
+      "cat": "动作,犯罪",
+      "wish": 63662,
+      "3d": false,
+      "pn": 224,
+      "imax": false,
+      "snum": 14425,
+      "time": "",
+      "id": 248075
+    }, {
+        "showInfo": "2017-12-01 下周五上映",
+        "cnms": 0,
+        "late": false,
+        "sn": 0,
+        "src": "",
+        "nm": "哥谭镇第四季",
+        "scm": "承包小少爷的盛世美颜",
+        "showDate": "",
+        "dur": 91,
+        "img": "//photovms.tv.sohu.com/20181120/-859539556154267239021256722_hor_small.jpg",
+        "sc": 0.0,
+        "ver": "2D",
+        "rt": "下周五上映",
+        "preSale": 1,
+        "vd": "",
+        "dir": "新房昭之",
+        "star": "广濑铃,菅田将晖,松隆子",
+        "cat": "爱情,动画,奇幻",
+        "wish": 67636,
+        "3d": false,
+        "pn": 20,
+        "imax": false,
+        "snum": 2150,
+        "time": "",
+        "id": 1198813
+      }, {
+      "showInfo": "今天47家影院放映306场",
+      "cnms": 0,
+      "late": false,
+      "sn": 0,
+      "src": "",
+      "nm": "娘道",
+      "scm": "致敬每一位伟大的母亲",
+      "showDate": "",
+      "dur": 105,
+      "img": "//photovms.tv.sohu.com/20181027/-859539556154065131283737649_hor_small.jpg",
+      "sc": 8.1,
+      "ver": "2D/中国巨幕",
+      "rt": "本周五上映",
+      "preSale": 0,
+      "vd": "",
+      "dir": "常征",
+      "star": "段奕宏,余男,王景春",
+      "cat": "动作,犯罪",
+      "wish": 37462,
+      "3d": false,
+      "pn": 94,
+      "imax": false,
+      "snum": 4929,
+      "time": "",
+      "id": 1196171
+    }, {
+      "showInfo": "今天46家影院放映235场",
+      "cnms": 0,
+      "late": false,
+      "sn": 0,
+      "src": "",
+      "nm": "那片星空那片海",
+      "scm": "说好的美人鱼竟是男的",
+      "showDate": "",
+      "dur": 105,
+      "img": "//photovms.tv.sohu.com/20181120/299356607154267071236662113_hor_small.jpg",
+      "sc": 9.6,
+      "ver": "2D/3D",
+      "rt": "本周五上映",
+      "preSale": 0,
+      "vd": "",
+      "dir": "李·昂克里奇,阿德里安.莫利纳",
+      "star": "安东尼·冈萨雷斯,本杰明·布拉特,盖尔·加西亚·贝纳尔",
+      "cat": "动画,冒险,家庭",
+      "wish": 16241,
+      "3d": true,
+      "pn": 48,
+      "imax": false,
+      "snum": 5017,
+      "time": "",
+      "id": 342068
+    }, {
+      "showInfo": "今天45家影院放映187场",
+      "cnms": 0,
+      "late": false,
+      "sn": 0,
+      "src": "",
+      "nm": "在下鄙人和我",
+      "scm": "鸡汤味十足却肥而不腻",
+      "showDate": "",
+      "dur": 90,
+      "img": "//photovms.tv.sohu.com/20181120/-85953955615426722949425938_hor_small.jpg",
+      "sc": 7.4,
+      "ver": "2D",
+      "rt": "本周五上映",
+      "preSale": 0,
+      "vd": "",
+      "dir": "张天辉",
+      "star": "陈都灵,林柏宏,汪铎",
+      "cat": "剧情,悬疑",
+      "wish": 38923,
+      "3d": false,
+      "pn": 62,
+      "imax": false,
+      "snum": 1450,
+      "time": "",
+      "id": 1190680
+    }, {
+      "showInfo": "2017-12-01 下周五上映",
+      "cnms": 0,
+      "late": false,
+      "sn": 0,
+      "src": "",
+      "nm": "初代吸血鬼第四季",
+      "scm": "来自吸血鬼的诱惑",
+      "showDate": "",
+      "dur": 91,
+      "img": "//photovms.tv.sohu.com/20181120/-859539556154267241415191177_hor_small.jpg",
+      "sc": 0.0,
+      "ver": "2D",
+      "rt": "下周五上映",
+      "preSale": 1,
+      "vd": "",
+      "dir": "张鹤栾",
+      "star": "郭德纲,于谦,岳云鹏",
+      "cat": "剧情,喜剧",
+      "wish": 65971,
+      "3d": false,
+      "pn": 21,
+      "imax": false,
+      "snum": 859,
+      "time": "",
+      "id": 342362
+    }]
+  }
+}
