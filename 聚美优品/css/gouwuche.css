@@ -93,8 +93,9 @@ text-align: center;font-size: 14px;}
 .center .zhuti-er .bottom .bottom1 p:nth-of-type(2) span{color: #666666;font-size: 12px;text-decoration: line-through;font-weight:normal;
 }
 .center .zhuti-er .bottom .bottom1 .gouwuche{width: 80px;height: 30px;color: #FFFFFF;font-size: 14px;background: #ED145B;line-height: 30px;
-text-align: center;margin-top: 20px;margin-left:100px;}
-
+text-align: center;margin-top: 20px;margin-left:100px;cursor: pointer;}
+.center .zhuti-er .bottom .bottom1 .gouwuche:hover{color: #ED145B;background: #FFFFFF;
+border: 1px solid #ED145B;}
 
 
 

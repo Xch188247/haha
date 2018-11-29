@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header {
+            width: 100%;
+            height: 54px;
+            background: #E54847;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        header p {
+            color: #ffffff;
+            margin: auto;
+            line-height: 54px;
+            width: 25%;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            width: 100%;
+            height: 44px;
+            border-bottom: 1px solid #E6E6E6;
+            position: fixed;
+            padding-top: 50px;
+            z-index: 99;
+            background: #fff;
+        }
+
+        nav ul {
+            width: 100%;
+        }
+
+        nav li {
+            float: left;
+            font-size: 0.9rem;
+            color: #666666;
+           
+        }
+
+        nav li:nth-of-type(1) {
+            width: 25%;
+            height: 44px;
+            line-height: 44px;
+            margin-left: 10px;
+        }
+
+        nav li:nth-of-type(2) {
+            width: 30%;
+            height: 42px;
+            line-height: 42px;
+            font-weight: bold;
+            margin-left: 2px;
+        }
+
+        nav li:nth-of-type(3) {
+            width: 30%;
+            height: 42px;
+            line-height: 42px;
+            font-weight: bold;
+        }
+
+        nav li:nth-of-type(4) {
+            width: 10%;
+            height: 44px;
+            line-height: 44px;
+            margin-top: 5px;
+        }
+
+        nav li:nth-of-type(2):hover {
+            color: #F04238;
+        }
+
+        nav li:nth-of-type(3):hover {
+            color: #F04238;
+        }
+
+        nav li:nth-of-type(2):hover p {
+            border-bottom: 2px solid #F04238;
+            width: 60%;
+            height: 1px;
+        }
+
+        nav li:nth-of-type(3):hover p {
+            border-bottom: 2px solid #F04238;
+            width: 60%;
+            height: 1px;
+        }
+
+        main {
+            overflow: hidden;
+            padding-top: 110px;
+        }
+
+        main #list {
+            width: 95%;
+            height: 114px;
+            margin: auto;
+
+        }
+
+        main #left {
+            float: left;
+            margin-left: 10px;
+            width: 23%;
+        }
+
+        main #left img {
+            width: 100%;
+        }
+
+        main #right {
+            float: right;
+
+            margin-right: 17%;
+            height: 100px;
+            border-bottom: 1px solid #F0F0F0;
+            position: relative;
+        }
+
+        main #right li:nth-of-type(1) {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #000000;
+            margin-top: 2%;
+        }
+
+        main #right li:nth-of-type(1) img {
+            vertical-align: middle;
+        }
+
+        main #right li:nth-of-type(2) {
+            color: #666666;
+            font-size: 0.9rem;
+            margin-top: 1%;
+        }
+
+        main #right li:nth-of-type(2) span {
+            color: #FAAF00;
+            font-weight: bold;
+        }
+
+        main #right li:nth-of-type(3) {
+            color: #666666;
+            font-size: 0.9rem;
+            margin-top: 1%;
+        }
+
+        main #right li:nth-of-type(4) {
+            color: #666666;
+            font-size: 0.9rem;
+            margin-top: 1%;
+        }
+
+        main #right .gp {
+            position: absolute;
+            width: 28%;
+            height: 28px;
+            background: #F03D37;
+            font-size: 0.9rem;
+            color: #ffffff;
+            text-align: center;
+            line-height: 28px;
+            border-radius: 20%;
+            top: 35%;
+            left: 100%;
+        }
+
+        #bottom ul {
+            width: 100%;
+            height: 50px;
+            border: 1px solid #D8D8D8;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 98;
+            background: #ffffff;
+        }
+
+        #bottom ul li {
+            float: left;
+            width: 33%;
+            height: 50px;
+            color: #666666;
+            line-height: 76px;
+            text-align: center;
+        }
+
+        #bottom ul li:nth-of-type(1) {
+            background: url(img/20181101134236.jpg) no-repeat center 5px;
+            color: #E54847;
+        }
+
+        #bottom ul li:nth-of-type(2) {
+            background: url(img/20181101134305.jpg) no-repeat center 5px
+        }
+
+        #bottom ul li:nth-of-type(3) {
+            background: url(img/20181101134331.jpg) no-repeat center 5px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>猫眼电影</p>
+    </header>
+    <nav>
+        <ul>
+            <li>哈尔滨▼</li>
+            <li>正在上映<p></p>
+            </li>
+            <li>即将上映<p></p>
+            </li>
+            <li><a><img src="img/20181101095953.jpg" alt=""></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+        <div id="list">
+            <div id="left"><img src="img/1 (44).jpg"></div>
+            <div id="right">
+                <ul>
+                    <li>铁血战士<img src="img/20181101103219.jpg" alt=""></li>
+                    <li>公众评<span>7.5</span></li>
+                    <li>主演: 波伊德·霍布鲁克</li>
+                    <li>今天54家影院放映520场</li>
+                </ul>
+                <div class="gp">购票</div>
+            </div>
+        </div>
+    </main>
+    <div id="bottom">
+        <ul>
+            <li>电影</li>
+            <li>影院</li>
+            <li>我的</li>
+        </ul>
+    </div>
+</body>
+
+</html>
