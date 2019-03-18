@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+<style>
+    *{margin: 0;padding: 0;}
+    body{background: url(img/00002.jpg)}
+    #header{width: 100%;height:80px;}
+    #header .left{float: left;color: #fff;font-size:30px;padding-left: 20px;
+    line-height:80px;width: 60%;}
+    #header .right{width:30%;color:#fff;float: right;font-size:12px;line-height:80px;padding-right: 50px;text-align: right;}
+    #header .right input{width:40px;background:none;border: none;outline: none;color: #fff;}
+    #header .right img{width:12px;}
+    nav{width: 100%;height:60px;background:rgba(225,225,225,0.5);color: #000;
+        border-radius: 60px;}
+    nav ul{padding-left: 30px;}
+    nav li{float:left;list-style: none;width:120px;line-height:60px;text-align: center;}
+    nav li:nth-of-type(3){background: #fff;}
+    nav li img{width:30%;vertical-align:-12px;}
+    main{width: 95%;margin:50px auto;position: relative;height:680px;}
+    main .left{float: left;width:15%;}
+    main .left li{width: 100%;height:50px;background: rgba(225, 225, 225, 0.5);color: #000;border-radius:50px;list-style: none;
+    text-align: center;line-height: 50px;margin-bottom: 20px; }
+    main .left li:nth-of-type(2){border: 1px solid #fff;background: none;color: #fff;}
+    main .right{width:80%;background: rgba(225, 225, 225, 0.5);height:700px;float: right;margin-right: 50px;color: #fff;}
+    main .right .p1{color: #fff;margin:20px 20px;}
+    main .right table input{border: 1px solid #fff;width:70%;height:70%;color: #fff;background: none;border-radius: 3px;margin-left: 20px;padding-left: 20px;outline: none;font-size: 18PX;}
+    main .right table td:nth-last-child(1){border-right: none;}
+    main .right table{width:95%;height: 75%;border: 1px solid #999;margin: auto;}
+    main .right table tr td{border-bottom: 1px solid #999;border-right: 1px solid #999;padding-left: 10px;}
+    main .right table tr td:nth-of-type(1){width:20%;height: 60px; }
+    main .right table textarea{width:70%;height:70%;background:none;border: 1px solid #fff;border-radius: 3px;outline: none;padding-left: 20px;padding-top: 20px;font-size:19px;color: #fff;}
+    main .right table button{width:180px;height:45px;background: #fff;color: #000;text-align: center;line-height:45px;font-size: 16px;border-radius: 5px;}
+    main .right .bottom{position: absolute;bottom: 0;right:80px;}
+    main .right .bottom p{float: left;width: 80px;height: 30px;background: #fff;color: #000;font-size: 12px;text-align: center;line-height: 30px;border-radius: 5px;margin-left:15px;}
+</style>
+</head>
+<body> 
+    <div id="header">
+        <div class="left">网申信用卡查询系统(内部版)</div>
+        <div class="right">
+            登陆，<input type="text"><img src="img/锁-wps图片.png" alt="">修改密码 　|　 
+            <img src="img/关机-wps图片.png" alt="">退出
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><img src="img/房子-wps图片.png"></li>
+            <li>通知公告信息</li>
+            <li>信息报送</li>
+            <li>数据交互</li>
+            <li>基础信息</li>
+            <li>统计分析</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="left">
+            <ul>
+                <li>当前约稿信息</li>
+                <li>新建报送信息</li>
+                <li>未上报信息</li>
+                <li>已上报信息</li>
+                <li>已采用信息</li>
+            </ul>
+        </div>
+       
+
+        </div>
+ <div class="right">
+    <p class="p1">注意：标有*</p>
+    
+        <table>
+            <tr >
+                <td >批复额度</td>
+                <td colspan=2 style="border-right:none;"><input type="text"></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td>*申请人员</td>
+                <td><input type="text"></td>
+                <td>*申请部门<input type="text"></td>
+            </tr>
+            <tr>
+                <td >*申请卡片</td>
+                <td><input type="text"></td>
+                <td>*信息类别<input type="text"></td>
+            </tr>
+            <tr>
+                <td>批复状态</td>
+                <td ><input type="text"></td>
+                <td>*日期<input type="text"></td>
+            </tr>
+            
+            <tr>
+                <td>*备注信息</td>
+                <td colspan=2 style="border-right:none;"><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                <td></td>
+            </tr>
+            <tr >
+                <td style=" border-bottom:none;">群发截图</td>
+                <td colspan=2 style="border-right:none; border-bottom:none;" ><button>选择文件</button></td>
+                <td></td>
+            </tr>
+            <div class="bottom">
+                <p>确认信息</p>
+                <p>上报撤销</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    </main>
+
+ 
+</body>
+</html>
